@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F2F2F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="♫ Profile Mahasiswa ♫"
+            android:textSize="22sp"
+            android:textColor="#333333"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/profile"
+            android:background="@drawable/circle_background"
+            android:clipToOutline="true"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:id="@+id/nim_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="NIM         : 10120090"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:fontFamily="sans-serif"
+            android:background="#E8E8E8"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Nama      : Muhammad Rizky Muhyi"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:fontFamily="sans-serif"
+            android:background="#E8E8E8"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/kelas_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Kelas       : IF-3"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:fontFamily="sans-serif"
+            android:background="#E8E8E8"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Email       : elmuhyi04@gmail.com"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:fontFamily="sans-serif"
+            android:background="#E8E8E8"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

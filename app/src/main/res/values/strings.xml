@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">10120090_gps</string>
+    <string name="informasi_aplikasi">
+        Aplikasi ini dibuat untuk memenuhi salah satu tugas yang memanfaatkan Sensor dan Google Maps API dari mata kuliah Alat Komputasi Bergerak yang diampu oleh Bapak Alif Finandhita, S.Kom, M.T.
+        \n
+    </string>
+    <string name="informasi_aplikasi2">
+   Aplikasi ini dirancang untuk memudahkan pengguna dalam mengetahui keberadaan lokasinya di google maps dengan antarmuka yang user-friendly, pengguna juga dapat melihat 5 tempat makan favorit yang telah ditentukan. \n
+   Dengan adanya aplikasi maps ini, harapannya bisa mempermudah pengguna dalam mengetahui lokasi-lokasi tertentu di google maps.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

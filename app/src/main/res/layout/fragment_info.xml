@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F2F2F2">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="♫ Informasi Aplikasi ♫"
+        android:textSize="23sp"
+        android:textColor="#333333"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_below="@id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="110dp"
+            android:layout_gravity="start"
+            android:src="@drawable/infoaplikasi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:gravity="start"
+            android:text="@string/informasi_aplikasi"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_gravity="end"
+        android:layout_marginTop="-1dp"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/informasi_aplikasi2"
+        android:textColor="#333333"
+        android:textSize="15sp" />
+
+</RelativeLayout>
